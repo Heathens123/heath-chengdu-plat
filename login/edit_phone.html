@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>修改手机号码</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="css/style-index.css" rel="stylesheet">
+    <script src="../all/jquery-2.1.1.min.js"></script>
+    <script src="../all/all.js"></script>
+    <script src="../all/ajax.js"></script>
+    <script src="../all/lib.js"></script>
+    <script src="../all/error_msg.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/edit_phone.js"></script>
+    
+</head>
+
+<body>
+     <div class="rl_from mg">
+    	<input type="tel" id="valtel" placeholder="请输入旧手机号">
+    	<input type="tel" id="newtel" placeholder="请输入新手机号">
+    </div>
+    <div class="rl_from mg ver_text">
+    	<input type="tel" maxlength="5" id="validation" class="ver_num" placeholder="请请输入验证码">
+    	 <input type="button" id="get_val" onclick="validation('get_val','newtel',1)" value="发送验证码">
+    </div>
+    <div class="rl_but">
+    	<input type="button" class="log_but" value="确定">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.news_div{
+    font-size: 0.28rem;
+    padding: 0.4rem;
+}
+.news_div_title{
+    font-size: 0.32rem;
+    color: #313131;
+    line-height: 0.48rem;
+}
+.news_time{
+    padding-top: 0.4rem;
+    color: #aaa;
+}
+.news_content{
+    font-size: 0.28rem !important;
+    line-height: 0.5rem;
+    margin-top: 0.4rem;
+
+}
+.news_content img{
+    max-width: 100%;
+    margin-top: 0.2rem;
+}

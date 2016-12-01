@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>找回密码</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="css/style-index.css" rel="stylesheet">
+   <script src="../all/jquery-2.1.1.min.js"></script>
+    <script src="../all/all.js"></script>
+    <script src="../all/ajax.js"></script>
+    <script src="../all/lib.js"></script>
+    <script src="../all/error_msg.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/forget_pwd.js"></script>
+</head>
+
+<body>
+    <div class="rl_from mg">
+    	<input type="tel" id="tel" value="" placeholder="请输入注册手机号码">
+    	<input type="password" id="pwd" value="" placeholder="请输入新密码">
+    	<input type="password" id="newpwd" value="" placeholder="请确认新密码">
+    </div>
+    <div class="rl_from mg ver_text">
+        <input type="tel" id="validation" class="ver_num" maxlength="5" placeholder="请输入验证码">
+        <input type="button" id="get_val"  onclick="validation('get_val','tel',2)" value="发送验证码">
+    </div>
+    <div class="rl_but">
+    	<input type="button" class="log_but" value="确定">
+    </div>
+</body>
+
+</html>

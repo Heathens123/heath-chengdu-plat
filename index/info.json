@@ -1,0 +1,17 @@
+{
+    "navigationBar" : {
+        "backgroundColor" : "#ffffff",
+        "bacgoundAlpha" : "1",
+        "backgroundImg" : "",
+        "hidden" : false,
+        "titleColor" : "#333333",
+        "leftBarButtonItem" : {
+
+        },
+        "rightBarButtonItem" : {
+            "title":"使用",
+            "highlightColor" : "#999999",
+            "normalColor" : "#999999"
+        }
+    }
+}

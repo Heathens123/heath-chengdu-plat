@@ -1,0 +1,18 @@
+{
+    "navigationBar" : {
+        "backgroundColor" : "#ffffff",
+        "bacgoundAlpha" : "1",
+        "backgroundImg" : "",
+        "hidden" : false,
+        "titleColor" : "#333333",
+        "leftBarButtonItem" : {
+
+        },
+        "rightBarButtonItem" : {
+            "title":"保存",
+            "highlightColor" : "#999999",
+            "normalColor" : "#5856d6",
+            "clickEvent":"topRightBtnClick"
+        }
+    }
+}

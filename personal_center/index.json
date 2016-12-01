@@ -1,0 +1,16 @@
+{
+    "navigationBar" : {
+        "backgroundColor" : "#ffffff",
+        "bacgoundAlpha" : "1",
+        "backgroundImg" : "",
+        "hidden" : true,
+        "titleColor" : "#333333",
+        "statusBarStyle":"lightContent",
+        "leftBarButtonItem" : {
+            "hidden":true
+        },
+        "rightBarButtonItem" : {
+            "hidden":true
+        }
+    }
+}

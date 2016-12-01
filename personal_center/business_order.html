@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>业务订单</title>
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="../all/all.css">
+    <link rel="stylesheet" href="css/business_order.css">
+
+    <script src="../all/jquery-2.1.1.min.js"></script>
+    <script src="../all/all.js"></script>
+    <script src="../all/lib.js"></script>
+    <script src="../all/ajax.js"></script>
+    <script src="../all/error_msg.js"></script>
+
+    <script src="js/URL.js"></script>
+    <script src="js/business_order.js"></script>
+</head>
+<body>
+<div>
+    <div class="bar_header">
+        <div class="tabs wait_pay">待支付</div>
+        <div class="tabs Already_pay">已支付</div>
+        <!--<div class="tabs">预约成功</div>-->
+    </div>
+
+    <div style="height: 0.98rem"></div>
+    <!--待支付列表-->
+    <div class="pending_pay_group" id="wait_pay">
+        <div class="commodity_list" id="wait_pay_list" style="display: none">
+            <div class="commodity_list_top">
+                <span>下单时间:</span>
+                <span class="startTime">2016-09-13</span>
+            </div>
+            <div class="commodity_pro box_h center_s">
+                <div class="commodity_pro_text boxflex1">
+                    <span class="diandian pro_title">乐至bamaoo</span>
+                    <div class="commodity_price">
+                        <span class="ywjianj">业务简介 ：</span>
+                        <p class="commodity_price_price diandian23">撒旦法阿斯蒂芬第三方撒旦法第三方第三方第三方第三方第三方的撒发大水 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_button">
+                <span class="getType">收费类型：记时</span>
+                <button class="Pay_bottom">
+                    支付
+                </button>
+            </div>
+            <div class="tiao"></div>
+        </div>
+    </div>
+    <!--已经支付列表-->
+    <div class="pending_pay_group" id="Already_pay">
+        <div class="commodity_list" id="Already_pay_list" style="display: none">
+            <div class="commodity_list_top">
+                <span>下单时间:</span>
+                <span class="startTime">2016-09-13</span>
+            </div>
+            <div class="commodity_pro box_h center_s">
+                <div class="commodity_pro_text boxflex1">
+                    <span class="diandian pro_title">乐至bamaoo</span>
+                    <div class="commodity_price">
+                        <span class="ywjianj">业务简介 ：</span>
+                        <p class="commodity_price_price diandian23">撒旦法阿斯蒂芬第三方撒旦法第三方第三方第三方第三方第三方的撒发大水 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_button">
+                <span class="getType">收费类型：记时</span>
+                <!--<button class="Pay_bottom">-->
+                    <!--续费-->
+                <!--</button>-->
+            </div>
+            <div class="tiao"></div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

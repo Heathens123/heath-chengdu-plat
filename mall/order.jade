@@ -1,0 +1,51 @@
+doctype html
+html
+   head
+      title 订单确认
+      include ../all/header
+      link(rel="stylesheet" type="text/css" href="css/mall.css")
+      script(src="../all/ajax.js")
+      script(src="js/order.js")
+   body
+      div(class="order_top")
+         div(id="order_address_add" class="order_address_add" style="display:none;") 填写地址
+         div(id="order_address" class="order_address border_box")
+            div(class="order_address_man box_h")
+               div(id="order_address_name")
+               div(id="order_address_phone")
+               a(id="order_address_default") 默认
+            div(id="order_address_address" class="order_address_address border_box diandian")
+
+
+      div(class="order_product box_h border_box")
+         div(class="order_product_img")
+            img(id="product_icon" src="")
+         div(class="boxflex1")
+            div(id="product_name" class="mill_info_title diandian")
+            div(id="product_info" class="mill_info_info diandian")
+            div(class="mill_info_price box_h")
+               div(class="mill_info_prices boxflex1")
+                  span ￥
+                  a(id="product_price")
+               div(class="mill_info_numbers box_h")
+                  div(id="mill_info_less" class="mill_info_less")
+                  div(id="product_number" class="mill_info_number") 1
+                  div(id="mill_info_add" class="mill_info_add")
+
+      div(class="order_prices border_box")
+         div(class="order_row box_h")
+            div(class="order_row_left") 总价
+            div(class="boxflex1")
+               a ￥
+               span(id="product_total_price")
+         div(class="order_row box_h")
+            div(class="order_row_left") 运费
+            div(class="boxflex1")
+               a
+               span 免运费
+
+         div(class="detail_footer box_h center_s")
+            div(class="detail_footer_total boxflex1")
+               span 总价：￥
+               span(id="detail_footer_total")
+            div(class="detail_footer_btn" id="detail_footer_btn") 立即支付

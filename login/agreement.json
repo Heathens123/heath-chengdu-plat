@@ -1,0 +1,5 @@
+{
+    "navigationBar" : {
+        "enablePullRefresh":false
+    }
+}

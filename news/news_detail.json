@@ -1,0 +1,17 @@
+{
+    "navigationBar" : {
+        "backgroundColor" : "#ffffff",
+        "bacgoundAlpha" : "1",
+        "backgroundImg" : "",
+        "hidden" : false,
+        "titleColor" : "#333333",
+        "leftBarButtonItem" : {
+
+        },
+        "rightBarButtonItem" : {
+            "highlightImg" : "news/images/icon_share_.png",
+            "normlImg" : "news/images/icon_share.png",
+            "clickEvent" : "topRightBtnClick"
+        }
+    }
+}

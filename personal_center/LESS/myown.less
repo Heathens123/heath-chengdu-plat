@@ -1,0 +1,64 @@
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+    .iterm{
+        height: 1.8rem;
+        .img{
+            height: 1.4rem;
+            width: 1.4rem;
+            margin: 0 0.4rem;
+            position: relative;
+            top: 0.2rem;
+            .rounded-corners(0.7rem);
+            overflow: hidden;
+            img{
+                position: relative;
+                left: -30%;
+            }
+        }
+        .Center,.butt{
+            height: 1.8rem;
+        }
+        .Center{
+            position: relative;
+            top: -0.05rem;
+            padding: 0.46rem 0;
+//          background: red;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            .top{
+                padding-bottom: 0.22rem;
+            }
+        }
+        .butt{
+            float: right;
+            position: relative;
+            right: 0.4rem;
+        }
+        .com{
+            display: inline-block;
+            span{
+                font-size: 0.28rem;
+                color: #3D3D3D;
+            }
+        }
+        .arthrity{
+            padding: 0.15rem 0.4rem;
+            .rounded-corners(0.5rem);
+            border: 0.03rem solid #5856d6;
+            color:#5856d6 ;
+            font-size: 0.28rem;
+        }
+        .top,.bottom{
+          display: block;
+        }
+    }
+    body{
+        font-family: "microsoft yahei";
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }

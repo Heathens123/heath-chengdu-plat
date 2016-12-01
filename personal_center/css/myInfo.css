@@ -1,0 +1,142 @@
+
+.myInfo_top{
+    height: 2.2rem;
+    font-size: 0;
+}
+.myInfo_top_head{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 5rem;
+    /*background-color: #00ff00;*/
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+    overflow: hidden;
+}
+.myInfo_top_head>img{
+    width: 100%;
+    height: 100%;
+}
+.myInfo_top_button{
+    float: right;
+    /*width: 2rem;*/
+    /*height: 0.52rem;*/
+    line-height: 0.52rem;
+    border-radius: 4rem;
+    border: 0.04rem solid #aaaaaa;
+    color: #aaaaaa;
+    margin-right: 0.4rem;
+    margin-top: 0.9rem;
+    font-size: 0.28rem;
+    padding: 0 0.2rem 0 0.6rem;
+    position: relative;
+    background-color: transparent;
+}
+#user_nick{
+    display: none;
+    float: left;
+    width: 2.5rem;
+}
+.myInfo_top_button:before{
+    content: url("../images/myInfo_edit_icon.png");
+    position: absolute;
+    left: 0.2rem;
+    top: 0.05rem;
+}
+.myInfo_a:before{
+    content: url("../images/myInfo_edit_icon2.png");
+    position: absolute;
+    left: 0.2rem;
+    top: 0.05rem;
+}
+.myInfo_top_button>img{
+    float: left;
+    display: block;
+
+    width: 0.26rem;
+    height: 0.26rem;
+    vertical-align: middle;
+    margin-top: 0.15rem;
+    margin-left: 0.3rem;
+    margin-right: 0.08rem;
+}
+#timeSelect{
+    background-color: #fff;
+}
+.myInfo_top_button>span{
+    display: block;
+    font-size: 0.26rem;
+    color: #aaaaaa;
+    vertical-align: middle;
+}
+
+.myInfo_top>input{
+    display: none;
+    font-size: 0.32rem;
+    margin-top: 0.94rem;
+    width: 2.5rem;
+    margin-left: 0.3rem;
+}
+.moyi_inp{
+    float: left;
+    display: block;
+    font-size: 0.32rem;
+    margin-top: 0.94rem;
+    width: 2.6rem;
+    margin-left: 0.3rem;
+}
+.myInfo_list_li{
+    padding-left: 0.4rem;
+}
+.myInfo_list_li input[type="button"]{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right:0.4rem;
+    background-color: #fff;
+    color: #aaa;
+}
+#phoneNum{
+    color: #aaa;
+}
+.myInfo_list_list{
+    height: 0.98rem;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 0.32rem;
+}
+.myInfo_list_top{
+    border-top: 1px solid #e5e5e5;
+}
+.myInfo_list_list input{
+    font-size: 0.32rem;
+    margin-top: 0.26rem;
+    float: right;
+    text-align: right;
+    padding-right: 0.4rem;
+}
+.myInfo_list_list span{
+    float: left;
+    display: block;
+    font-size: 0.32rem;
+    margin-top: 0.26rem;
+    width: 2rem;
+}
+.wc{
+    display: none;
+    color: #5856d6;
+    border-color: #5856d6;;
+}
+.myInfo_button{
+    display: block;
+    width: 6.7rem;
+    height: 0.9rem;
+    font-size: 0.32rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5rem;
+    color: #fff;
+    background-color: #5856d6;
+}

@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "microsoft yahei";
+}
+.iterm {
+  height: 1.76rem;
+  padding: 0.40rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.iterm .wtop {
+  font-size: 0.32rem;
+  color: #3D3D3D;
+}
+.iterm .wbottom {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  width: 100%;
+  justify-content: space-between;
+  box-pack: justify;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -moz-box-pack: justify;
+}
+.iterm .wbottom span {
+  display: block;
+  font-size: 0.28rem;
+  color: #AAAAAA;
+}

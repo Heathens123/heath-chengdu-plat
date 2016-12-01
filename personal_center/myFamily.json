@@ -1,0 +1,17 @@
+{
+    "navigationBar" : {
+        "backgroundColor" : "#ffffff",
+        "bacgoundAlpha" : "1",
+        "backgroundImg" : "",
+        "hidden" : false,
+        "titleColor" : "#333333",
+        "leftBarButtonItem" : {
+            "hidden":false
+        },
+        "rightBarButtonItem" : {
+            "title":"编辑",
+            "highlightColor" : "#999999",
+            "normalColor" : "#5856d6"
+        }
+    }
+}

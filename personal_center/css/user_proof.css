@@ -1,0 +1,45 @@
+.user_proof{
+    list-style: none;
+}
+.user_proof>li{
+    height: 0.98rem;
+    font-size: 0.32rem;
+    line-height: 0.98rem;
+}
+.user_proof_li .name_first{
+    width: 3rem;
+    box-sizing:border-box;
+    padding-left: 0.4rem;
+    color: #3d3d3d;
+}
+.user_proof_li .info{
+    /*float: left;*/
+    color: #aaa;
+    font-size: 0.28rem;
+}
+.line2{
+    border-bottom: 0.01rem #e5e5e5 solid ;
+    width: 7.1rem;
+    float: right;
+}
+.div_line2{
+    height: 0.2rem !important;
+    background-color: #eee;
+    border-top: 0.01rem solid #e5e5e5;
+    border-bottom: 0.01rem solid #e5e5e5;
+
+}
+.myInfo_button{
+    display: block;
+    width: 6.7rem;
+    height: 0.9rem;
+    font-size: 0.32rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5rem;
+    color: #fff;
+    background-color: #5856d6;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+		<meta name="format-detection" content="telephone=no" />
+		<title>我的家庭</title>
+
+		<link rel="stylesheet" href="../all/all.css">
+		<link rel="stylesheet" href="css/myFamily.css">
+		<script src="../all/jquery-2.1.1.min.js"></script>
+		<script src="../all/all.js"></script>
+		<script src="../all/lib.js"></script>
+		<script src="../all/ajax.js"></script>
+		<script src="../all/error_msg.js"></script>
+		<script src="js/URL.js"></script>
+		<script src="js/myFamily.js"></script>
+	</head>
+
+	<body>
+		<!--家长-->
+
+		<div class="commodity_list">
+			<div class="commodity_pro box_h center_s">
+				<div class="commodity_pro_img ">
+					<img src="images/testCommment.jpg" alt="">
+				</div>
+				<div class="commodity_pro_text boxflex1">
+					<span class="diandian jz_name"></span>
+					<span class="jz_phoneNum"></span>
+					<div class="commodity_price">
+						<span class="commodity_price_price"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="div_line"></div>
+		<div id="clone_family" style="display: none;">
+			<div class="commodity_family_list clickB">
+				<div class="commodity_pro_family box_h center_s">
+					<div class="commodity_family_img ">
+						<img src="images/testCommment.jpg" alt="">
+					</div>
+					<div class="commodity_pro_text boxflex1">
+						<span class="diandian jz_name_family"></span>
+						<span class="jz_phoneNum"></span>
+						<div class="commodity_price_family">
+							<span class="commodity_price_price"></span>
+						</div>
+					</div>
+				</div>
+				<div class="all_line"></div>
+
+			</div>
+		</div>
+
+		<!--成员-->
+		<div id="family">
+		</div>
+
+		<div class="float_div">
+			<button class="myInfo_button">
+			删除家庭成员
+			</button>
+			<button id="add_peo" class="myInfo_button">
+            	添加家庭成员
+        	</button>
+		</div>
+
+	</body>
+
+</html>

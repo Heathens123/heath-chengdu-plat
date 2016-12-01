@@ -1,0 +1,35 @@
+.myNews-list{
+    height: 1.5rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+.myNews-yuanquan{
+    display: block;
+    border-radius: 5rem;
+    float: left;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #ff5e3a;
+    vertical-align: middle;
+    margin-left: 0.4rem;
+    margin-top: 0.12rem;
+}
+.myNews-head{
+    font-size:0.32rem ;
+    color: #313131;
+    vertical-align: middle;
+    padding-top: 0.3rem;
+}
+.myNews-text{
+    display: block;
+    float: left;
+    vertical-align: middle;
+    padding-left: 0.12rem;
+}
+.myNews-time{
+    text-align: right;
+    font-size: 0.28rem;
+    color: #aaa;
+    padding-right: 0.4rem;
+    padding-top: 0.2rem;
+}
+.clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }

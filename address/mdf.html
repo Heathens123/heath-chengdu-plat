@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>收货地址</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="../all/all.css">
+    <script src="../all/jquery-2.1.1.min.js"></script>
+    <script src="../all/lib.js"></script>
+    <script src="../all/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <script src="../all/ajax.js"></script>
+    <script src="js/mdf.js"></script>
+  </head>
+  <body>
+    <label class="box_h center_s border_box">
+      <div>收货人</div>
+      <input id="address_name" type="text" placeholder="请输入收货人姓名" class="boxflex1">
+    </label>
+    <label class="box_h center_s border_box">
+      <div>联系电话</div>
+      <input id="address_phone" type="tel" placeholder="请输入联系电话" class="boxflex1">
+    </label>
+    <label class="box_h center_s border_box">
+      <div>详细地址</div>
+      <input id="address_info" type="text" placeholder="请输入收货人地址" class="boxflex1">
+    </label>
+    <div class="mdf_default border_box">
+      <p>设置默认地址</p>
+      <p>注：每次下单时会使用该地址</p>
+      <div id="mdf_btn" class="mdf_btn"></div>
+    </div>
+    <div id="mdf_submit" class="mdf_submit">保存</div>
+  </body>
+</html>

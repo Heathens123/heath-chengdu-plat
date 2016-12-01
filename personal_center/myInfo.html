@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的资料</title>
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="../all/all.css">
+    <link rel="stylesheet" href="css/myInfo.css">
+
+    <script src="../all/jquery-2.1.1.min.js"></script>
+    <script src="../all/all.js"></script>
+    <script src="../all/lib.js"></script>
+    <script src="../all/ajax.js"></script>
+    <script src="../all/error_msg.js"></script>
+    <script src="js/URL.js"></script>
+    <script src="js/myInfo.js"></script>
+
+</head>
+<body>
+    <div class="myInfo_top">
+        <div class="myInfo_top_head" id="headImg">
+            <img id="index_head_img" onerror="this.src='images/user_head.png'" src="" alt="">
+        </div>
+        <input type="text" data-rule="nickname,max:30" data-error="请输入正确的昵称名"  id="user_nick"  placeholder="请输入昵称">
+        <p class="moyi_inp diandian" id="nickName"></p>
+        <!--<div class="myInfo_top_button">-->
+            <!--<img src="images/myInfo_edit_icon.png" alt="">-->
+            <!--<span>编辑昵称</span>-->
+        <!--</div>-->
+        <button class="myInfo_top_button bj" id="edit">编辑昵称</button>
+        <button class="myInfo_top_button myInfo_a wc" >完成</button>
+    </div>
+    <div class="myInfo_list">
+        <!--列表-->
+        <div class="myInfo_list_li">
+            <div class="myInfo_list_list myInfo_list_top">
+                <span>真实姓名</span>
+                <input data-rule="must,min:2,max:16,chinese" data-error="请输入真实姓名" type="text" id="Name" placeholder="必填">
+            </div>
+        </div>
+        <div class="myInfo_list_li sex_div">
+            <div class="myInfo_list_list">
+                <span>性别</span>
+                <input type="button" id="sex" value="必填">
+            </div>
+        </div>
+        <div class="myInfo_list_li date_div">
+            <div class="myInfo_list_list">
+                <span>出生日期</span>
+                <input type="button" id="bornDate" value="必填">
+            </div>
+        </div>
+        <div class="myInfo_list_li pidType_div">
+            <div class="myInfo_list_list">
+                <span>证件类型</span>
+                <input type="button" id="cardType" value="必填">
+            </div>
+        </div>
+        <div class="myInfo_list_li">
+            <div class="myInfo_list_list">
+                <span>证件号</span>
+                <input data-rule="must,idCard" data-error="请输入真实身份证号码" type="text" id="idCard" placeholder="必填">
+            </div>
+        </div>
+        <div class="myInfo_list_li">
+            <div class="myInfo_list_list">
+                <span>手机号</span>
+                <input data-rule="must,phone" data-error="请输入您的手机号" type="text" id="phoneNum" readonly="readonly" placeholder="必填">
+                <!--<input type="text" id="phoneNum" placeholder="必填">-->
+            </div>
+        </div>
+        <div class="myInfo_list_li">
+            <div class="myInfo_list_list">
+                <span>邮箱</span>
+                <input data-rule="email" data-error="请输入正确的邮箱" type="text" id="mail"  placeholder="选填">
+            </div>
+        </div>
+    </div>
+    <button id="submit_btn" class="myInfo_button">
+        完成
+    </button>
+</body>
+</html>

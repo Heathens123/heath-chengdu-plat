@@ -1,0 +1,66 @@
+doctype html
+html
+   head
+      title 产品详情
+      include ../all/header
+      link(rel="stylesheet" type="text/css" href="css/mall.css")
+      script(src="../all/ajax.js")
+      script(src="js/detail.js")
+   body
+
+      div(class="detail_banner" id="banner")
+         div(class="detail_banner_main" id="banner_main")
+            //a(style="background:url(../temp_img/mall_banner.png); background-size:100% 100%;-webkit-background-size:100% 100%")
+            //a(style="background:url(../temp_img/mall_banner.png); background-size:100% 100%;-webkit-background-size:100% 100%")
+            //a(style="background:url(../temp_img/mall_banner.png); background-size:100% 100%;-webkit-background-size:100% 100%")
+
+      div(class="detail_message border_box")
+         div(class="detail_title box_h")
+            img(id="detail_app_icon" style="display:none;" src="img/default_icon.png")
+            div(class="boxflex1 detail_message_box")
+               div(id="detail_name" class="detail_title_name diandian")
+               div(class="boxflex1 box_h average_s")
+                  div(class="detail_price")
+                     span ￥
+                     span(id="detail_price")
+                  del
+                     span ￥
+                     span(id="detail_old_price")
+                  div(class="detail_sell_number boxflex1")
+                     span 已售
+                     span(id="detail_sale_number")
+
+
+         div(class="detail_trait border_box" id="detail_trait_list")
+            //div(class="detail_trait_list")
+            //div(class="detail_trait_list") 商品特点介绍商品特点介绍商品特点介绍商品特点介绍商品特点介绍商品特点介绍商品特点介绍商品特点介绍商品特点介绍商品特点介绍商品特点介绍
+
+         div(class="detail_send_gs") 由健康成都直接发货
+
+
+      div(class="detail_info")
+         div(class="detail_info_title")
+            span 图文详情
+         div(class="detail_info_img")
+            img(id="detail_info_img" src="#")
+
+
+      div(class="detail_info")
+         div(class="detail_info_title")
+            span 购买须知
+         div(class="detail_info_img")
+            div(class="detail_trait_list detail_buy_know") 销售购买和在线购买两种方式。
+            div(class="detail_trait_list detail_buy_know") 为用户提供专业、实效的产品及服务。
+            div(class="detail_trait_list detail_buy_know") 技术团队为用户提供上门安装服务。
+            div(class="detail_trait_list detail_buy_know") 实施团队为用户提供全方位、多角度、分层次培训，保障使用。
+            div(class="detail_trait_list detail_buy_know") 全国联网技术支持中心提供在线支持、上门服务等日常维护。
+
+         div(class="detail_tel" id="detail_tel")
+            span 客服电话
+
+
+      div(class="detail_footer box_h center_s")
+         div(class="detail_footer_total boxflex1")
+            span 单价：￥
+            span(id="detail_footer_total")
+         div(class="detail_footer_btn" id="detail_footer_btn") 确认支付

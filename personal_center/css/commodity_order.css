@@ -1,0 +1,74 @@
+.commodity_list{
+    font-size: 0.28rem;
+}
+button{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-size: 0.28rem;
+    padding: 0.08rem 0.24rem;
+    color: #5856d6;
+    border: 0.04rem solid #5856d6;
+    border-radius: 5rem;
+    float: right;
+    margin-top: 0.22rem;
+    margin-right: 0.4rem;
+    background-color: #fff;
+}
+.commodity_list_top{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    padding-left: 0.4rem;
+    font-size: 0.28rem;
+    color: #313131;
+}
+.commodity_pro{
+    font-size: 0.32rem;
+    height: 2.2rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.commodity_pro_img{
+    margin-left: 0.4rem;
+    width: 2.2rem;
+}
+.commodity_pro_img>img{
+    width: 2.2rem;
+    height: 1.66rem;
+}
+.commodity_pro_text>span{
+    font-size: 0.32rem;
+    color: #313131;
+    display: block;
+}
+.commodity_price{
+    margin-top: 0.28rem;
+    font-size: 0.28rem;
+    color: #aaa;
+}
+.commodity_price>.c_num{
+    float: right;
+    text-align: right;
+    padding-right: 0.4rem;
+}
+.commodity_pro_text>span{
+   padding-left: 0.4rem;
+}
+.commodity_price_price{
+    padding-left: 0.4rem;
+}
+.bottom_button{
+    height: 1.1rem;
+    line-height: 1.1rem;
+}
+.bottom_button span{
+    padding-left: 0.4rem;
+    font-size: 0.32rem;
+    color: #ff5e3a;
+}
+.tiao{
+    height: 0.2rem;
+    background-color: #eee;
+    border-top: 0.01rem solid #e5e5e5;
+    border-bottom: 0.01rem solid #e5e5e5;
+}

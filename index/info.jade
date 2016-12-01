@@ -1,0 +1,42 @@
+doctype html
+html
+   head
+      title
+      include ../all/header
+      link(rel="stylesheet" type="text/css" href="css/index.css")
+      script(src="js/info.js")
+   body
+
+      div(class="info_loading" id="info_loading")
+
+      div(class="info_banner")
+         //应用背景
+         img(id="app_bg" class="info_banner_bg" src="#")
+         //应用icon
+         img(id="app_icon" class="info_banner_icon" src="img/default_icon.png")
+
+      //应用信息
+      div(id="app_name" class="info_title")
+      div(id="app_info" class="info_info")
+
+
+      //最新动态
+      div(class="info_message")
+         div(class="into_message_title") 最新动态
+         div(id="app_update_time" class="info_message_time")
+
+         div(class="info_message_update") －－－本次更新－－－
+         div(id="app_update_info" class="info_message_update_info")
+
+         div(class="info_message_title") 应用信息
+         div(class="box_h info_message_row border_box")
+            div(class="info_message_row_left") 开发商
+            div(id="app_sp_name" class="boxflex1")
+         div(class="box_h info_message_row border_box")
+            div(class="info_message_row_left") 类别
+            div(id="app_type_name" class="boxflex1")
+         div(class="box_h info_message_row border_box")
+            div(class="info_message_row_left") 更新日期
+            div(id="app_update_time1" class="boxflex1")
+
+         br

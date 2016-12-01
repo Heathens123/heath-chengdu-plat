@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>网络错误</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="../all/all.css" rel="stylesheet">
+    <script src="../all/jquery-2.1.1.min.js"></script>
+    <script src="../all/lib.js"></script>
+    <script src="../all/all.js"></script>
+    <script>
+
+        var PAGE = {
+            init:function(){
+                JK.noListShow.netWorkErr($("body"));
+                var btn = $("a");
+                $$(btn).myclickok(function(){
+                    YJH.H5NativeUIManager.reloadPage();
+                })
+            }
+        };
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

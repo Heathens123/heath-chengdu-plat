@@ -1,0 +1,62 @@
+{
+    "navigationBar" : {
+        "backgroundColor" : "#ffffff",
+        "bacgoundAlpha" : "1",
+        "backgroundImg" : "",
+        "hidden" : false,
+        "titleColor" : "#333333",
+        "statusBarStyle" : "default",
+        "enablePullRefresh" : true,
+        "leftBarButtonItem" : {
+            "title" : "",
+            "highlightColor" : "#9400D3",
+            "normalColor" : "#333333",
+            "highlightImg" : "icon/icon_title_back_press.png",
+            "normlImg" : "icon/icon_title_back.png",
+            "clickEvent" : "",
+            "hidden" : false
+        },
+        "rightBarButtonItem" : {
+            "title" : "",
+            "highlightColor" : "#9400D3",
+            "normalColor" : "#333333",
+            "highlightImg" : "",
+            "normlImg" : "",
+            "clickEvent" : "",
+            "hidden" : false
+        }
+    },
+
+    "tabBar" : {
+        "backgroundColor" : "#ffffff",
+        "bacgoundAlpha" : "1",
+        "backgroundImg" : "",
+        "hidden" : true,
+        "tabBarItemList" : [
+            {
+                "highlightImg" : "icon/icon_tab_app.png",
+                "normlImg" : "icon/icon_tab_app_press.png",
+                "clickEvent" : "",
+                "openUrl" : "index/index.html"
+            },
+            {
+                "highlightImg" : "icon/icon_tab_info.png",
+                "normlImg" : "icon/icon_tab_info_press.png",
+                "clickEvent" : "",
+                "openUrl" : "news/index.html"
+            },
+            {
+                "normlImg" : "icon/icon_tab_mall_press.png",
+                "highlightImg" :"icon/icon_tab_mall.png",
+                "clickEvent" : "",
+                "openUrl" : "mall/index.html"
+            },
+            {
+                "normlImg" : "icon/icon_tab_myinfo_press.png",
+                "highlightImg" : "icon/icon_tab_myinfo.png",
+                "clickEvent" : "",
+                "openUrl" : "personal_center/index.html"
+            }
+        ]
+    }
+}

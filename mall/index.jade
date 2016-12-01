@@ -1,0 +1,44 @@
+doctype html
+html
+   head
+      title 健康商城
+      include ../all/header
+
+      link(rel="stylesheet" type="text/css" href="css/mall.css")
+      script(src="../all/ajax.js")
+      script(src="js/index.js")
+   body
+
+      div(class="list_banner")
+         img(src="")
+      div(class="list_banner_info border_box diandian") 商城所有商品均由医疗服务商提供，非盈利商品
+
+      div(class="list_products" id="list_products")
+
+         //- for (var x = 0; x < 6; x++)
+         //   div(class="list_products_item border_box")
+         //      div(class="box_h center_s")
+         //         img(src="../temp_img/mall_banner.png")
+         //         div(class="boxflex1")
+         //            div(class="list_proudcts_name diandian") 商品名称商品名称商品名称商品名称商品名称
+         //            div(class="list_products_info diandian") 商品介绍商品介绍商品介绍商品介绍商品介绍商品介绍
+         //            div(class="list_products_other box_h")
+         //               div(class="list_product_cs") 糖护士提供
+         //               div(class="list_product_prices boxflex1")
+         //                  span ￥
+         //                  span(class="list_product_price") 230
+         //                  span 元
+
+
+         div(class="list_products_item border_box" id="list_products_item" style="display:none;")
+            div(class="box_h center_s")
+               img(src="../temp_img/mall_banner.png")
+               div(class="boxflex1")
+                  div(class="list_proudcts_name diandian")
+                  div(class="list_products_info diandian")
+                  div(class="list_products_other box_h")
+                     div(class="list_product_cs")
+                     div(class="list_product_prices boxflex1")
+                        span ￥
+                        span(class="list_product_price")
+                        span 元

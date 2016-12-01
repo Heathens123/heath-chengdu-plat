@@ -1,0 +1,80 @@
+.commodity_list{
+    font-size: 0.28rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+.commodity_pro{
+    font-size: 0.32rem;
+    height: 2.2rem;
+}
+.commodity_pro_img{
+    margin-left: 0.4rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    overflow: hidden;
+    border-radius: 5rem;
+}
+.commodity_pro_img>img{
+    width:1.4rem;
+    height: 1.4rem;
+}
+.commodity_pro_text>span.jz_name{
+    font-size: 0.32rem;
+    color: #313131;
+    padding-left: 0.4rem;
+}
+.arrow_right{
+    padding: 0.1rem;
+    position: relative;
+    float: right;
+    margin-right: 1rem;
+    font-size: 0.28rem;
+    color: #aaa;
+    /*margin-top: 0.5rem;*/
+}
+.arrow_right:after{
+    content: url("../images/index_arrow.png");
+    position: absolute;
+    top: 0.08rem;
+    right: -0.6rem;
+
+}
+.add_info_list{
+    font-size: 0.28rem;
+    height:1.5rem;
+    width: 6.7rem;
+    margin: 0 auto;
+    line-height: 1.5rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+.add_info_list input{
+    font-size: 0.28rem;
+    color: #aaa;
+    height: 1.3rem;
+    width: 6.2rem;
+    /*background-color: #00ff00;*/
+}
+.type_card{
+    color: #aaaaaa;
+    position: relative;
+}
+.type_card>span:after{
+    content: url("../images/index_arrow.png");
+    position: absolute;
+    right: -0.1rem;
+    top: 0.1rem;
+}
+.myInfo_button{
+    display: block;
+    width: 6.7rem;
+    height: 0.9rem;
+    font-size: 0.32rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5rem;
+    color: #fff;
+    background-color: #5856d6;
+}
+

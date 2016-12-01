@@ -1,0 +1,26 @@
+doctype html
+html
+   head
+      title 收货地址
+      include ../all/header
+      link(rel="stylesheet" type="text/css" href="css/css.css")
+      script(src="../all/ajax.js")
+      script(src="js/mdf.js")
+   body
+
+      label(class="box_h center_s border_box")
+         div 收货人
+         input(id="address_name" class="boxflex1" type="text" placeholder="请输入收货人姓名")
+      label(class="box_h center_s border_box")
+         div 联系电话
+         input(id="address_phone" class="boxflex1" type="number" placeholder="请输入联系电话")
+      label(class="box_h center_s border_box")
+         div 详细地址
+         input(id="address_info" class="boxflex1" type="text" placeholder="请输入收货人地址")
+
+      div(class="mdf_default border_box")
+         p 设置默认地址
+         p 注：每次下单时会使用该地址
+         div(class="mdf_btn" id="mdf_btn")
+
+      div(class="mdf_submit" id="mdf_submit") 保存

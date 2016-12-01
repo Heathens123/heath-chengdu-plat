@@ -1,0 +1,39 @@
+.business_li{
+    font-size: 0.32rem;
+    height: 0.98rem;
+    line-height: 0.98rem;
+}
+.myInfo_button{
+    display: block;
+    width: 6.7rem;
+    height: 0.9rem;
+    font-size: 0.32rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5rem;
+    color: #fff;
+    background-color: #5856d6;
+}
+.business_li>.business_li_name{
+    padding-left: 0.4rem;
+    color: #313131;
+}
+.business_li_text{
+    padding-left: 2rem;
+    color: #aaaaaa;
+}
+.div_line{
+    height: 0.2rem;
+    background-color: #eee;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.border_bottom{
+    border-bottom: 1px solid #e5e5e5;
+}
+.other_o_color{
+    color: #ff5e3a;
+}

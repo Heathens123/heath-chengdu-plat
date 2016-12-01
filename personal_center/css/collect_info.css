@@ -1,0 +1,104 @@
+.collect_list{
+    font-size: 0.32rem;
+}
+.collect_list_li{
+    height: 2.46rem;
+}
+.line_b{
+    border-bottom: 1px solid #e5e5e5;
+    width: 7rem;
+    margin: 0 auto;
+}
+.collect_img img{
+    width: 2.2rem;
+    height: 1.66rem;
+}
+.collect_title{
+    font-size: 0.28rem;
+    padding: 0 0.4rem;
+    text-align: justify;
+    position: relative;
+}
+.collect_title_2{
+    position: absolute;
+    left: 0;
+    top: -0.92rem;
+    padding: 0 0.4rem;
+
+}
+.collect_title_time{
+    position: absolute;
+    right: 0;
+    top: 0.3rem;
+    padding: 0 0.4rem;
+}
+.collect_title_time{
+    font-size: 0.24rem;
+    color: #aaa;
+    text-align: right;
+    padding-top: 0.25rem;
+}
+.collect_img{
+    padding-right: 0.4rem;
+}
+.diandian3{
+    text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;
+}
+.delete_div{
+    overflow: hidden;
+    width: 100%;
+}
+.herf_news{
+    transition: all 0.4s;
+    -moz-transition: all 0.4s; /* Firefox 4 */
+    -webkit-transition: all 0.4s; /* Safari 和 Chrome */
+    -o-transition: all 0.4s; /* Opera */
+    margin-left: -0.8rem;
+}
+.delete_div>div{
+    width: 10rem;
+
+}
+.left_delete{
+    margin-left:0;
+}
+.delete_icon{
+    width: 0.8rem;
+    height: 2.46rem;
+    float: left;
+}
+#colect_list_div{
+    padding-bottom: 1.1rem;
+}
+.delete_icon img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.9rem;
+    margin-left: 0.4rem;
+}
+.content_div{
+    width: 7.5rem;
+    float: left;
+}
+
+.myInfo_button{
+    display: none;
+    width: 6.7rem;
+    height: 0.9rem;
+    font-size: 0.32rem;
+    margin: 0 auto;
+    /*margin-top: 0.8rem;*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5rem;
+    color: #fff;
+    background-color: #5856d6;
+}
+.float_div{
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0.4rem;
+    background-color: #fff;
+    width: 100%;
+}

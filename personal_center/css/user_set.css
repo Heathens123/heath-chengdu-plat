@@ -1,0 +1,33 @@
+.set_list_li{
+    font-size: 0.32rem;
+    line-height: 0.9rem;
+}
+.set_list_li>p{
+    height: 0.9rem;
+    padding-left: 0.4rem;
+    position: relative;
+}
+.set_list_li>p:after{
+    content: url("../images/index_arrow.png");
+    position: absolute;
+    right: 0.4rem;
+    top: 0.11rem;
+}
+.line_div{
+    border-top: 1px #e5e5e5 solid;
+    margin-left: 0.4rem;
+}
+.myInfo_button{
+    display: block;
+    width: 6.7rem;
+    height: 0.9rem;
+    font-size: 0.32rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 5rem;
+    color: #fff;
+    background-color: #5856d6;
+}

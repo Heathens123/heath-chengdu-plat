@@ -1,0 +1,88 @@
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "microsoft yahei";
+}
+.headaContent{
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+    height: 2.2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-bottom: 0.01rem solid gray;
+    .headimg{
+        display: inline-block;
+        margin-left: 0.4rem;
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-top: 0.4rem;
+        .rounded-corners (0.7rem);
+        overflow: hidden;
+        img{
+            width: 1.4rem;
+            height: 1.4rem;
+        }
+    }
+    .rightContent{
+        height: 2.2rem;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+        display: inline-block;
+        position: relative;
+        top: -0.4rem;
+        .wrap{
+            position: relative;
+//          top: -0.2rem;
+        }
+        span{
+            font-size: 0.28rem;
+            color: #3D3D3D;
+        }
+        .IDcard{
+            color: #5856d6;
+            font-size: 0.28rem;
+            position: relative;
+            top: 0.12rem;
+        }
+        .Right{
+            position: relative;
+            left: 1.5rem;
+        }
+        .Right:before{
+            content: url(../images/myFamily_phone_icon.png);
+        }
+    }
+}
+.ULlist{
+    border-top: 0.01rem solid gray;
+    margin-top: 0.3rem;
+    li{
+       list-style: none;
+       padding: 0 0.4rem;
+       display: block;
+       clear: both;
+       .cleft{
+           float: left;
+           .ctext{
+               font-size: 0.32rem;
+               position:relative ;
+               top: -0.12rem;
+               margin-left: 0.1rem;
+           }
+       }
+       .cright{
+           float: right;
+       }
+       .cleft,.cright{
+           display: inline-block;
+       }
+    }
+    
+    
+}

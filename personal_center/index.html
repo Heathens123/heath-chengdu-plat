@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心首页</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="../all/all.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="../all/jquery-2.1.1.min.js"></script>
+    <script src="../all/all.js"></script>
+    <script src="../all/lib.js"></script>
+    <script src="../all/ajax.js"></script>
+    <script src="../all/error_msg.js"></script>
+
+    <script src="js/URL.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body>
+
+    <div class="index_top">
+        <div class="index_div_head" id="index_head">
+            <img class="index_head_img" onerror="this.src='images/user_head.png'"  alt="">
+        </div>
+        <p class="index_head_name">
+            <span id="index_text"></span>
+        </p>
+        <div class="index_ld_div" id="message" style="display: none;">
+            <img src="images/index_ld_icon.png" alt="">
+            <!--<button class="index_ld_div_num">19</button>-->
+        </div>
+    </div>
+    <div class="index_center box_h center_s">
+        <div class="boxflex1" id="my_order">
+            <img class="index_icon" src="images/index_icon1.png" alt="">
+            <p>我的预约</p>
+        </div>
+        <div class="boxflex1" id="commodity_order">
+            <img class="index_icon" src="images/index_icon2.png" alt="">
+            <p>商品列表</p>
+        </div>
+        <div class="boxflex1" id="business_order">
+            <img class="index_icon" src="images/index_icon3.png" alt="">
+            <p>业务订单</p>
+        </div>
+    </div>
+    <!--列表-->
+    <div class="index_list">
+        <div class="index_list_li">
+            <div id="myFamily">
+                <img class="my_icon" src="images/index_myHealth_icon.png" alt="">
+                <span class="my_text">我的家庭</span>
+                <img class="my_arrow" src="images/index_arrow.png" alt="">
+            </div>
+        </div>
+        <div class="index_list_li">
+            <div id="getAddress">
+                <img class="my_icon" src="images/index_myAddress_icon.png" alt="">
+                <span class="my_text">收货地址</span>
+                <img class="my_arrow" src="images/index_arrow.png" alt="">
+            </div>
+        </div>
+        <div class="index_list_li">
+            <div id="collect_info">
+                <img class="my_icon" src="images/index_myCollect_icon.png" alt="">
+                <span class="my_text">收藏</span>
+                <img class="my_arrow" src="images/index_arrow.png" alt="">
+            </div>
+        </div>
+        <div class="index_list_li">
+            <div id="Complaint_feedback">
+                <img class="my_icon" src="images/index_myView_icon.png" alt="">
+                <span class="my_text">意见反馈</span>
+                <img class="my_arrow" src="images/index_arrow.png" alt="">
+            </div>
+        </div>
+        <div class="index_list_li">
+            <div id="user_set">
+                <img class="my_icon" src="images/index_mySet_icon.png" alt="">
+                <span class="my_text">设置</span>
+                <img class="my_arrow" src="images/index_arrow.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

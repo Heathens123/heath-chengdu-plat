@@ -1,0 +1,320 @@
+body{
+    background: #f3f3f3;
+}
+
+.list_banner{
+    background: #fff;
+    width: 100%; height: 3.82rem;
+}
+.list_banner img{
+    width: 100%; height: 100%;
+}
+.list_banner_info{
+    width: 100%; height: 1rem; line-height: 1rem;
+    padding: 0 0.5rem 0 1.12rem;
+    font-size: 0.28rem; color: #999;
+    background-image: url(../img/info.png);
+    background-repeat: no-repeat;
+    background-position: 0.52rem center;
+    -webkit-background-size: 0.42rem 0.42rem;
+    background-size: 0.42rem 0.42rem;
+    background-color: #fff;
+    margin-bottom: 0.18rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.list_products{
+    width: 100%; background: #fff;
+}
+.list_products_item{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0.4rem 0;
+    margin: 0 0.22rem;
+}
+.list_products_item img{
+    display: block; width: 2.4rem; height: 1.8rem;
+    padding-right: 0.22rem;
+}
+.list_proudcts_name{
+    width: 100%; height: 0.4rem; font-size: 0.32rem; color: #333;
+}
+.list_products_info{
+    width: 100%; height: 0.42rem; line-height: 0.46rem;
+    font-size: 0.24rem; color: #999;
+}
+.list_products_other{
+    width: 100%; height: 0.4rem; overflow: hidden;
+    padding-top: 0.5rem;
+}
+.list_product_cs{
+    height: 0.4rem; padding: 0 0.3rem; text-align: center; color: #fff;
+    font-size: 0.2rem; background: #ff9500; line-height: 0.4rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    border-radius: 0.2rem;
+}
+.list_product_prices{
+    padding-left: 0.3rem; text-align: right;
+    color: #999; font-size: 0.32rem;
+    height: 0.36rem;
+}
+
+
+
+
+/*商品详情*/
+.detail_banner{
+    width: 100%; height: 6.32rem; overflow: hidden; position: relative;
+}
+.detail_banner_main{
+    width: 100%; height: 100%;
+}
+.detail_banner_main a{
+    display: block;
+}
+.detail_message{
+    padding: 0.34rem; background: #fff; border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 0; margin-bottom: 0.24rem;
+}
+.detail_message_box{
+    padding: 0.1rem 0;
+}
+.detail_title{
+    width: 100%; height: 1.2rem; padding-bottom: 0.36rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+.detail_title img{
+    display: block; width: 1.2rem; height: 1.2rem;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    padding-right: 0.34rem;
+}
+.detail_title_name{
+    width: 100%; height: 0.4rem; font-size: 0.36rem;
+    color: #333; line-height: 0.4rem; padding-bottom: 0.1rem;
+}
+.detail_price{
+    font-size: 0.48rem; color: #ff5e3a; padding-right: 0.32rem;
+}
+del{
+    font-size: 0.3rem; color: #999; padding-right: 0.32rem;
+    display: block;
+}
+.detail_sell_number{
+    text-align: right; font-size: 0.26rem; color: #5856d6;
+}
+.detail_trait{
+    padding-top: 0.34rem; border-bottom: 1px solid #e5e5e5;
+}
+.detail_trait_list{
+    padding: 0 0 0.34rem 0.32rem; position: relative;
+    font-size: 0.28rem; color: #333; line-height: 0.46rem;
+}
+.detail_trait_list:after{
+    content: "";
+    position: absolute; left:0; top: 0.17rem; font-size: 0;
+    width: 0.1rem; height: 0.1rem; background: #9B9B9B;
+    -webkit-border-radius: 0.1rem;
+    -moz-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+}
+.detail_send_gs{
+    width: 100%; height: 0.8rem; line-height: 0.8rem;
+    font-size: 0.26rem; color: #999; text-align: right;
+}
+.detail_info{
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff; margin-bottom: 0.24rem;
+    padding: 0.6rem 0.4rem;
+}
+.detail_info_title{
+    font-size: 0.34rem; color: #333; text-align: center;
+    margin-bottom: 0.56rem;
+}
+.detail_info_title span{
+    display: inline-block; height: 0.34rem; line-height: 0.34rem;
+    padding: 0 1rem; position: relative;
+}
+.detail_info_title span:after {
+     content: "";
+     position: absolute; left:0; top: 0.09rem; width: 0.9rem; height: 0.16rem;
+     background: url(../img/detail_line.png) no-repeat left center;
+     -webkit-background-size: 100% 100%;
+     background-size: 100% 100%;
+}
+.detail_info_title span:before{
+    content: "";
+    position: absolute; right:0; top: 0.09rem; width: 0.9rem; height: 0.16rem;
+    background: url(../img/detail_line.png) no-repeat left center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    -o-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+.detail_info_img{
+    width: 100%;
+}
+.detail_info_img img{
+    width: 100%;
+}
+.detail_buy_know{
+    font-size: 0.3rem; color: #999; line-height: 0.48rem;
+    padding-bottom: 0rem;
+}
+.detail_buy_know:after{
+    background: #999;
+}
+
+.detail_tel{
+    border: 0.02rem dashed #d8d8d8;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    width: 100%; height: 0.86rem;
+    margin: 0.4rem 0;
+    font-size: 0.28rem; color: #5856d6;
+    text-align: center; line-height: 0.86rem;
+    margin-bottom: 1rem;
+}
+.detail_tel span{
+    display: inline-block; padding-left: 0.62rem;
+    height: 0.86rem;
+    background: url(../img/detail_tel.png) no-repeat left center;
+
+}
+
+
+.detail_footer{
+    position: fixed; left:0; bottom: 0;
+    border-top: 1px solid #e5e5e5;
+    width: 100%; height: 1rem; background: #fff;
+}
+.detail_footer_total{
+    font-size: 0.38rem; color: #5856d6;
+    padding-left: 0.3rem;
+}
+.detail_footer_btn{
+    width: 2.8rem; height: 1rem; background: #5856d6; color: #fff;
+    font-size: 0.34rem; line-height: 1rem; text-align: center;
+}
+
+
+
+.order_top{
+    width: 100%; height: 1.4rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+    margin-bottom: 0.2rem;
+}
+.order_address_add{
+    width: 2.48rem; height: 0.52rem;
+    border: 0.04rem solid #5856d6;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    border-radius: 0.6rem;
+    margin: 0.44rem auto; color: #5856d6;
+    font-size: 0.28rem; line-height: 0.52rem; text-align: center;
+}
+.order_address{
+    width: 100%; height: 100%; padding: 0.25rem 0.36rem 0 0.36rem;
+    background: url(../img/arrow.png) no-repeat 95% center;
+}
+.order_address_man{
+    width: 100%; height: 0.4rem;
+}
+.order_address_man div{
+    font-size: 0.36rem; color: #333; margin-right: 0.2rem; line-height: 0.4rem
+}
+.order_address_man a{
+    width: 0.64rem; height: 0.32rem;
+    font-size: 0.2rem; color: #fff;
+    background: #ff5e3a; display: block;
+    text-align: center; line-height: 0.32rem;
+    position: relative; top: 0.05rem;
+    -webkit-border-radius: 0.08rem;
+    -moz-border-radius: 0.08rem;
+    border-radius: 0.08rem;
+    margin-right: 0.2rem;
+}
+.order_address_address{
+    background: url(../img/address.png) no-repeat left 0.03rem;
+    -webkit-background-size: 0.22rem 0.28rem;
+    background-size: 0.22rem 0.28rem;
+    width: 100%; height: 0.34rem;
+    font-size: 0.28rem; color: #333;
+    padding: 0 0.6rem 0 0.35rem;
+    margin-top: 0.16rem;
+    line-height: 0.34rem;
+}
+
+
+.order_product{
+    width: 100%; height: 2.44rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+    margin-bottom: 0.2rem;
+    padding: 0.2rem 0.36rem;
+}
+.order_product_img{
+    width: 2rem; height: 2rem; padding-right: 0.2rem;
+}
+.order_product_img img{
+    width: 100%; height: 100%;
+}
+.mill_info_title{
+    width: 100%; height: 0.58rem; font-size: 0.36rem; color: #333;
+    line-height: 0.58rem;
+}
+.mill_info_info{
+    width: 100%; height: 0.5rem; line-height: 0.5rem;
+    font-size: 0.28rem; color:#999; margin-bottom: 0.34rem;
+}
+.mill_info_price{
+    height: 0.52rem; line-height: 0.52rem;
+    font-size: 0.38rem; color: #5856d6;
+}
+.mill_info_numbers{
+    width: 1.74rem; height: 0.52rem;
+}
+.mill_info_less{
+    width: 0.52rem; height: 0.52rem;
+    background: url(../img/less.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.mill_info_add{
+    width: 0.52rem; height: 0.52rem;
+    background: url(../img/add.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.mill_info_number{
+    width: 0.7rem; font-size: 0.38rem; color: #ff5e3a;
+    text-align: center; height: 0.52rem;
+    overflow: hidden; line-height: 0.52rem;
+}
+
+.order_prices{
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+    margin-bottom: 0.2rem;
+    padding: 0.2rem 0.36rem;
+}
+.order_row{
+    width: 100%; height: 0.45rem;  line-height: 0.45rem;
+}
+.order_row_left{
+    width: 1rem; color: #999; font-size: 0.32rem;
+}
+.order_row .boxflex1{
+    font-size: 0.32rem; color: #5856d6; text-align: right;
+}

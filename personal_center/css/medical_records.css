@@ -1,0 +1,46 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.iterm{
+	padding: 0.4rem 0;
+	height: 1.76rem;
+	margin-left:0.4rem;
+	margin-right: 0.4rem;
+	position: relative;
+	border-bottom: 2px solid #EEEEEE;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+/*.comer,.comer span,.iHead,.iBody{
+	height: 0.88rem;
+}*/
+.iHead ,.iBody, .comer span{
+	
+	height: 0.48rem;
+	line-height: 0.48rem;
+}
+
+.iHead{
+	position: relative;
+	top: -0.3rem;
+}
+.iBody{
+	position: relative;
+	bottom: 0.2rem;
+}
+.iHead span{
+	font-size: 0.32rem;
+	color: #3D3D3D;
+}
+.iBody .comer span{
+	font-size: 0.28rem;
+	color: #AAAAAA;
+}
+.comer{
+	display: inline-block;
+}
+.inum{
+	float: right;
+}

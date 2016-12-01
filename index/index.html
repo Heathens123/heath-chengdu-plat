@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>应用</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="../all/all.css">
+    <script src="../all/jquery-2.1.1.min.js"></script>
+    <script src="../all/lib.js"></script>
+    <script src="../all/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="../all/ajax.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <!--顶部banner-->
+    <div id="banner" class="index_banner">
+      <div id="banner_main" class="index_banner_main">
+        <!--a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")-->
+        <!--a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")-->
+        <!--a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")-->
+      </div>
+    </div>
+    <!--推荐应用-->
+    <div id="top_app" class="index_recommend_app box_h center_s">
+      <!--div(class="index_recommend_app_item box_s center")-->
+      <!--   img(src="img/app_gh.png")-->
+      <!--   span 预约挂号-->
+      <!--div(class="index_recommend_app_item box_s center")-->
+      <!--   img(src="img/app_sqyl.png")-->
+      <!--   span 社区医疗-->
+      <!--div(class="index_recommend_app_item box_s center")-->
+      <!--   img(src="img/app_jkpg.png")-->
+      <!--   span 健康评估-->
+      
+    </div>
+    <!--常用应用-->
+    <div class="index_use_app">
+      <div class="index_use_app_title">常用应用</div>
+      <div id="index_use_app" class="index_use_app_list">
+        <!--div(class="index_use_app_item border_box" id="index_use_app_list" style="display:none;")-->
+        <!--   img(src="../temp_img/icon__.png")-->
+        <!--   span(class="diandian") 预约挂号预约挂号预约挂号预约挂号-->
+        
+        
+        
+      </div>
+    </div>
+    <!--中间banner-->
+    <div id="banner1" class="index_banner">
+      <div id="banner_main1" class="index_banner_main">
+        <!--a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")-->
+        <!--a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")-->
+        <!--a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")-->
+        
+        
+      </div>
+    </div>
+    <!--应用分类列表-->
+    <div id="index_app_types_body">
+      <!--   div(class="index_app_types")-->
+      <!--      div(class="index_app_types_title border_box box_h")-->
+      <!--         span 寻医问诊-->
+      <!--         a 更多-->
+      <!--      div(class="index_app_types_apps border_box")-->
+      <!--         div(class="index_app_types_apps_main box_h")-->
+      <!--            - for (var z = 0; z < 6; z++)-->
+      <!--               div(class="index_app_types_item border_box")-->
+      <!--                  img(src="../temp_img/icon__.png")-->
+      <!--                  span(class="diandian") 预约挂号预约挂号预约挂号预约挂号预约挂号预约挂号-->
+      
+      
+    </div>
+    <!--底banner-->
+    <div id="banner2" class="index_banner">
+      <div id="banner_main2" class="index_banner_main">
+        <!--a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")-->
+        <!--a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")-->
+        <!--a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")-->
+        
+        
+      </div>
+    </div>
+    <!--其他分类-->
+    <div id="index_other" class="index_other_types border_box box_h">
+      <!--   div(class="index_other_item")-->
+      <!--      img(src="../temp_img/mall_banner.png")-->
+      <!--      span(class="diandian") 应用名称应用名称应用名称12-->
+      
+      
+      
+    </div>
+    <!--克隆部分-->
+    <!--顶部推荐应用列表-->
+    <div style="display:none;" id="top_app_list" class="index_recommend_app_item box_s center"><img src="img/default_icon.png"><span></span></div>
+    <!--常用应用列表-->
+    <div id="index_use_app_list" style="display:none;" class="index_use_app_item border_box"><img src="img/default_icon.png"><span class="diandian"></span></div>
+    <!--其他分类列表-->
+    <div id="index_other_item" style="display:none;" class="index_other_item"><img src="img/default_icon.png"><span class="diandian"></span></div>
+    <!--应用列表 中的 应用列表-->
+    <div id="index_app_types_item" style="display:none;" class="index_app_types_item border_box"><img src="img/default_icon.png"><span class="diandian"></span></div>
+    <!--应用列表中的 分类列表-->
+    <div id="index_app_types" style="display:none;" class="index_app_types">
+      <div class="index_app_types_title border_box box_h"><span>寻医问诊</span><a>更多</a></div>
+      <div class="index_app_types_apps border_box">
+        <div class="index_app_types_apps_main box_h"></div>
+      </div>
+    </div>
+  </body>
+</html>

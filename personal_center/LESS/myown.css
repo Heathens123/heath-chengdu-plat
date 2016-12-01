@@ -1,0 +1,64 @@
+.iterm {
+  height: 1.8rem;
+}
+.iterm .img {
+  height: 1.4rem;
+  width: 1.4rem;
+  margin: 0 0.4rem;
+  position: relative;
+  top: 0.2rem;
+  border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  overflow: hidden;
+}
+.iterm .img img {
+  position: relative;
+  left: -30%;
+}
+.iterm .Center,
+.iterm .butt {
+  height: 1.8rem;
+}
+.iterm .Center {
+  position: relative;
+  top: -0.05rem;
+  padding: 0.46rem 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.iterm .Center .top {
+  padding-bottom: 0.22rem;
+}
+.iterm .butt {
+  float: right;
+  position: relative;
+  right: 0.4rem;
+}
+.iterm .com {
+  display: inline-block;
+}
+.iterm .com span {
+  font-size: 0.28rem;
+  color: #3D3D3D;
+}
+.iterm .arthrity {
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border: 0.03rem solid #5856d6;
+  color: #5856d6 ;
+  font-size: 0.28rem;
+}
+.iterm .top,
+.iterm .bottom {
+  display: block;
+}
+body {
+  font-family: "microsoft yahei";
+}
+* {
+  padding: 0;
+  margin: 0;
+}

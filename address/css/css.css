@@ -1,0 +1,93 @@
+body{
+    background: #f3f3f3;
+}
+
+.order_address_body{
+    width: 100%; height: 1.4rem;
+    /*border-top: 1px solid #e5e5e5;*/
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.order_address_main{
+    position: relative; width: 100%; height: 100%; background: #fff;
+}
+
+.order_address{
+    width: 100%; height: 100%; padding: 0.25rem 0.36rem 0 0.36rem;
+    background: url(../img/arrow.png) no-repeat 95% center;
+}
+.order_address_man{
+    width: 100%; height: 0.4rem;
+}
+.order_address_man div{
+    font-size: 0.36rem; color: #333; margin-right: 0.2rem; line-height: 0.4rem
+}
+.order_address_man a{
+    width: 0.64rem; height: 0.32rem;
+    font-size: 0.2rem; color: #fff;
+    background: #ff5e3a; display: block;
+    text-align: center; line-height: 0.32rem;
+    position: relative; top: 0.05rem;
+    -webkit-border-radius: 0.08rem;
+    -moz-border-radius: 0.08rem;
+    border-radius: 0.08rem;
+    margin-right: 0.2rem;
+}
+.order_address_address{
+    background: url(../img/address.png) no-repeat left 0.03rem;
+    -webkit-background-size: 0.22rem 0.28rem;
+    background-size: 0.22rem 0.28rem;
+    width: 100%; height: 0.34rem;
+    font-size: 0.28rem; color: #333;
+    padding: 0 0.6rem 0 0.35rem;
+    margin-top: 0.16rem;
+    line-height: 0.34rem;
+}
+.order_address_del{
+    position: absolute; top: -0.01rem; right: -1.28rem;
+    width: 1.28rem; height: 1.4rem; background: #5856d6;
+    color: #fff; font-size: 0.32rem; text-align: center;
+    line-height: 1.4rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+label{
+    height: 1.2rem; padding: 0 0.34rem; font-size: 0.32rem;
+    border-top: 1px solid #e5e5e5; background: #fff;
+}
+label div{
+    width: 2.2rem;
+}
+label input{
+    width: 100%; background: none; outline: none; border: none;
+    font-size: 0.32rem; display: block;
+}
+.mdf_default{
+    padding: 0.3rem 0.34rem; position: relative;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+}
+.mdf_default p{
+    font-size: 0.24rem; color: #999; padding: 0.08rem 0;
+}
+.mdf_default p:first-child{
+    font-size: 0.32rem; color: #333;
+}
+
+
+.mdf_submit{
+    width: 6.7rem; height: 0.9rem; background: #5856d6;
+    color: #fff; font-size: 0.34rem; text-align: center;
+    line-height: 0.9rem; margin: 0.8rem auto;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+}
+.mdf_btn{
+    position: absolute; top: 50%; right: 0.3rem;
+    width: 1rem; height: 0.6rem; margin-top: -0.3rem;
+}

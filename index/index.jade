@@ -1,0 +1,113 @@
+doctype html
+html
+   head
+      title 应用
+      include ../all/header
+      link(rel="stylesheet" type="text/css" href="css/index.css")
+      script(src="../all/ajax.js")
+      script(src="js/index.js")
+   body
+      //顶部banner
+      div(class="index_banner" id="banner")
+         div(class="index_banner_main" id="banner_main")
+            //a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")
+            //a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")
+            //a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")
+
+      //推荐应用
+      div(class="index_recommend_app box_h center_s" id="top_app")
+         //div(class="index_recommend_app_item box_s center")
+         //   img(src="img/app_gh.png")
+         //   span 预约挂号
+         //div(class="index_recommend_app_item box_s center")
+         //   img(src="img/app_sqyl.png")
+         //   span 社区医疗
+         //div(class="index_recommend_app_item box_s center")
+         //   img(src="img/app_jkpg.png")
+         //   span 健康评估
+
+
+      //常用应用
+      div(class="index_use_app")
+         div(class="index_use_app_title") 常用应用
+         div(class="index_use_app_list" id="index_use_app")
+            //div(class="index_use_app_item border_box" id="index_use_app_list" style="display:none;")
+            //   img(src="../temp_img/icon__.png")
+            //   span(class="diandian") 预约挂号预约挂号预约挂号预约挂号
+
+
+
+
+      //中间banner
+      div(class="index_banner" id="banner1")
+         div(class="index_banner_main" id="banner_main1")
+            //a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")
+            //a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")
+            //a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")
+
+
+
+      //应用分类列表
+      div(id="index_app_types_body")
+         //- for (var y = 0; y < 3; y++)
+         //   div(class="index_app_types")
+         //      div(class="index_app_types_title border_box box_h")
+         //         span 寻医问诊
+         //         a 更多
+         //      div(class="index_app_types_apps border_box")
+         //         div(class="index_app_types_apps_main box_h")
+         //            - for (var z = 0; z < 6; z++)
+         //               div(class="index_app_types_item border_box")
+         //                  img(src="../temp_img/icon__.png")
+         //                  span(class="diandian") 预约挂号预约挂号预约挂号预约挂号预约挂号预约挂号
+
+
+
+      //底banner
+      div(class="index_banner" id="banner2")
+         div(class="index_banner_main" id="banner_main2")
+            //a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")
+            //a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")
+            //a(style="background:url(../temp_img/mall_banner.png);background-size:100% 100%; -webkit-background-size:100% 100%")
+
+
+
+      //其他分类
+      div(class="index_other_types border_box box_h" id="index_other")
+         //- for (var a = 0; a < 3; a++)
+         //   div(class="index_other_item")
+         //      img(src="../temp_img/mall_banner.png")
+         //      span(class="diandian") 应用名称应用名称应用名称12
+
+
+
+
+      //克隆部分
+      //顶部推荐应用列表
+      div(class="index_recommend_app_item box_s center" style="display:none;" id="top_app_list")
+         img(src="img/default_icon.png")
+         span
+
+      //常用应用列表
+      div(class="index_use_app_item border_box" id="index_use_app_list" style="display:none;")
+         img(src="img/default_icon.png")
+         span(class="diandian")
+
+      //其他分类列表
+      div(class="index_other_item" id="index_other_item" style="display:none;")
+         img(src="img/default_icon.png")
+         span(class="diandian")
+
+
+      //应用列表 中的 应用列表
+      div(class="index_app_types_item border_box" id="index_app_types_item" style="display:none;")
+         img(src="img/default_icon.png")
+         span(class="diandian")
+
+      //应用列表中的 分类列表
+      div(class="index_app_types" id="index_app_types" style="display:none;")
+         div(class="index_app_types_title border_box box_h")
+            span 寻医问诊
+            a 更多
+         div(class="index_app_types_apps border_box")
+            div(class="index_app_types_apps_main box_h")

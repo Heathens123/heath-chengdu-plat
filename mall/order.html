@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>订单确认</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="../all/all.css">
+    <script src="../all/jquery-2.1.1.min.js"></script>
+    <script src="../all/lib.js"></script>
+    <script src="../all/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/mall.css">
+    <script src="../all/ajax.js"></script>
+    <script src="js/order.js"></script>
+  </head>
+  <body>
+    <div class="order_top">
+      <div id="order_address_add" style="display:none;" class="order_address_add">填写地址</div>
+      <div id="order_address" class="order_address border_box">
+        <div class="order_address_man box_h">
+          <div id="order_address_name"></div>
+          <div id="order_address_phone"></div><a id="order_address_default">默认</a>
+        </div>
+        <div id="order_address_address" class="order_address_address border_box diandian"></div>
+      </div>
+    </div>
+    <div class="order_product box_h border_box">
+      <div class="order_product_img"><img id="product_icon" src=""></div>
+      <div class="boxflex1">
+        <div id="product_name" class="mill_info_title diandian"></div>
+        <div id="product_info" class="mill_info_info diandian"></div>
+        <div class="mill_info_price box_h">
+          <div class="mill_info_prices boxflex1"><span>￥</span><a id="product_price"></a></div>
+          <div class="mill_info_numbers box_h">
+            <div id="mill_info_less" class="mill_info_less"></div>
+            <div id="product_number" class="mill_info_number">1</div>
+            <div id="mill_info_add" class="mill_info_add"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="order_prices border_box">
+      <div class="order_row box_h">
+        <div class="order_row_left">总价</div>
+        <div class="boxflex1"><a>￥</a><span id="product_total_price"></span></div>
+      </div>
+      <div class="order_row box_h">
+        <div class="order_row_left">运费</div>
+        <div class="boxflex1"><a></a><span>免运费</span></div>
+      </div>
+      <div class="detail_footer box_h center_s">
+        <div class="detail_footer_total boxflex1"><span>总价：￥</span><span id="detail_footer_total"></span></div>
+        <div id="detail_footer_btn" class="detail_footer_btn">立即支付</div>
+      </div>
+    </div>
+  </body>
+</html>
